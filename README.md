@@ -1,5 +1,8 @@
 # LinkTextView
 
+## 效果
+
+<img src="https://raw.githubusercontent.com/bravecheng/LinkTextView/master/Screenshot_LinkTextView.png" width="300">
 
 ## 用法
 
