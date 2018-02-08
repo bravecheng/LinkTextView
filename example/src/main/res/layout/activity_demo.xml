@@ -7,7 +7,7 @@
     android:gravity="center"
     tools:context="mobi.chy.linkexample.DemoActivity">
 
-    <mobi.chy.linktextview.LinkTextView
+    <mobi.chy.widget.LinkTextView
         android:id="@+id/ltv_demo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

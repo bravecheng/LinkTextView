@@ -28,7 +28,7 @@ publish {
     artifactId = 'linktextview'
     userOrg = 'bravecheng'
     groupId = 'mobi.chy'
-    publishVersion = '0.0.1'
+    publishVersion = '0.0.2'
     desc = 'a useful android link textview widget.'
     website = 'https://github.com/bravecheng/LinkTextView'
 }

@@ -1,4 +1,4 @@
-package mobi.chy.linktextview;
+package mobi.chy.widget;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -17,6 +17,7 @@ import android.widget.TextView;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
 
 /**
  * Custom Link TextView

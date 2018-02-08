@@ -4,8 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Toast;
 
-import mobi.chy.linkexample.R;
-import mobi.chy.linktextview.LinkTextView;
+import mobi.chy.widget.LinkTextView;
 
 public class DemoActivity extends AppCompatActivity {
 
