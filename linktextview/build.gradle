@@ -12,7 +12,6 @@ android {
     buildTypes {
         release {
             minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
 
@@ -22,3 +21,15 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.android.support:appcompat-v7:26.1.0'
 }
+
+apply plugin: 'com.novoda.bintray-release'
+
+publish {
+    artifactId = 'linktextview'
+    userOrg = 'bravecheng'
+    groupId = 'mobi.chy'
+    publishVersion = '0.0.1'
+    desc = 'a useful android link textview widget.'
+    website = 'https://github.com/bravecheng/LinkTextView'
+}
+
