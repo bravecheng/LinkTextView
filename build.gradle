@@ -33,7 +33,7 @@ ext {
     userOrg = 'bravecheng'
     groupId = 'mobi.chy'
     uploadName = 'linktextview'
-    publishVersion = '0.0.2'
+    publishVersion = '0.0.3'
     desc = 'Request code can be generated automatically'
     website = 'https://github.com/bravecheng/LinkTextView'
     licences = ['Apache-2.0']

@@ -5,6 +5,7 @@ import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Color;
 import android.support.annotation.Nullable;
+import android.support.v7.widget.AppCompatTextView;
 import android.text.SpannableString;
 import android.text.Spanned;
 import android.text.TextPaint;
@@ -13,7 +14,6 @@ import android.text.method.LinkMovementMethod;
 import android.text.style.ClickableSpan;
 import android.util.AttributeSet;
 import android.view.View;
-import android.widget.TextView;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -25,8 +25,7 @@ import java.util.regex.Pattern;
  * Created by @author chengyong on 2018/2/8.
  */
 
-@SuppressLint("AppCompatCustomView")
-public class LinkTextView extends TextView {
+public class LinkTextView extends AppCompatTextView {
 
     private String mLink;
     private int mLinkColor;
