@@ -14,7 +14,6 @@ public class DemoActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_demo);
         LinkTextView ltvDemo = findViewById(R.id.ltv_demo);
-        ltvDemo.setLinkText("genius");
         ltvDemo.setOnLinkClickListener(new LinkTextView.OnLinkClickListener() {
             @Override
             public void onLinkClick() {
