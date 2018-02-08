@@ -26,17 +26,17 @@
 **app:link**
 需要匹配并显示超链接的文字
 
-**app:linkColor**
+**app:linkColor**  
 定制超链接文字颜色
 
 定义好以后，在代码中加入监听
 
     LinkTextView ltvDemo = findViewById(R.id.ltv_demo);
-        ltvDemo.setOnLinkClickListener(new LinkTextView.OnLinkClickListener() {
-            @Override
-            public void onLinkClick() {
-                Toast.makeText(DemoActivity.this,"link clicked!",Toast.LENGTH_LONG).show();
-            }
-        });
+    ltvDemo.setOnLinkClickListener(new LinkTextView.OnLinkClickListener() {
+        @Override
+        public void onLinkClick() {
+            Toast.makeText(DemoActivity.this,"link clicked!",Toast.LENGTH_LONG).show();
+        }
+    });
 
 
