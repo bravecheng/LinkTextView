@@ -24,10 +24,10 @@ dependencies {
 apply plugin: 'com.novoda.bintray-release'
 
 publish {
-    artifactId = 'linktextview'
+    artifactId = 'LinkTextView'
     userOrg = 'bravecheng'
     groupId = 'mobi.chy'
-    publishVersion = '0.0.3'
+    publishVersion = '0.1.0'
     desc = 'a useful android link textview widget.'
     website = 'https://github.com/bravecheng/LinkTextView'
 }

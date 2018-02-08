@@ -16,7 +16,6 @@ allprojects {
     repositories {
         google()
         jcenter()
-        maven{url 'https://dl.bintray.com/bravecheng/maven/'}
     }
 
     tasks.withType(Javadoc) {
@@ -32,8 +31,8 @@ task clean(type: Delete) {
 ext {
     userOrg = 'bravecheng'
     groupId = 'mobi.chy'
-    uploadName = 'linktextview'
-    publishVersion = '0.0.3'
+    uploadName = 'LinkTextView'
+    publishVersion = '0.1.0'
     desc = 'Request code can be generated automatically'
     website = 'https://github.com/bravecheng/LinkTextView'
     licences = ['Apache-2.0']

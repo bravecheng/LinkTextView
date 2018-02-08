@@ -20,5 +20,5 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.android.support:appcompat-v7:26.1.0'
-    compile 'mobi.chy:linktextview:0.0.2'
+    compile 'mobi.chy:LinkTextView:0.1.0'
 }
