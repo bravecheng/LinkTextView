@@ -1,6 +1,5 @@
 package mobi.chy.widget;
 
-import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Color;
@@ -17,6 +16,8 @@ import android.view.View;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+import mobi.chy.widget.linktextview.R;
 
 
 /**
