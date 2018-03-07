@@ -1,5 +1,7 @@
 # LinkTextView
 
+[ ![Download](https://api.bintray.com/packages/bravecheng/maven/LinkTextView/images/download.svg) ](https://bintray.com/bravecheng/maven/LinkTextView/_latestVersion)
+
 ## 效果
 
 <img src="https://raw.githubusercontent.com/bravecheng/LinkTextView/master/Screenshot_LinkTextView.png" width="300">
