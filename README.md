@@ -25,12 +25,12 @@
         app:linkColor="@color/colorAccent"/>
 
 
-**app:link**
-需要匹配并显示超链接的文字
-**app:linkColor**
-定制超链接文字颜色
-**app:showUnderline**
-是否需要显示下划线，默认**true**显示
+**app:link**  
+需要匹配并显示超链接的文字  
+**app:linkColor**  
+定制超链接文字颜色  
+**app:showUnderline**  
+是否需要显示下划线，默认**true**显示  
 
 定义好以后，在代码中加入监听
 
