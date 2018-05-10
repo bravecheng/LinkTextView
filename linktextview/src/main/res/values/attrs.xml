@@ -3,5 +3,6 @@
     <declare-styleable name="LinkTextView">
         <attr name="linkColor" format="reference"/>
         <attr name="link" format="string"/>
+        <attr name="showUnderline" format="boolean"/>
     </declare-styleable>
 </resources>

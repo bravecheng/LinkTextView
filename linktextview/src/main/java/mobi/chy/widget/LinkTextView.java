@@ -30,6 +30,7 @@ public class LinkTextView extends AppCompatTextView {
 
     private String mLink;
     private int mLinkColor;
+    private boolean mShowUnderline;
     private OnLinkClickListener mListener;
 
     public LinkTextView(Context context) {
@@ -45,6 +46,7 @@ public class LinkTextView extends AppCompatTextView {
         TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.LinkTextView, defStyleAttr, 0);
         mLink = typedArray.getString(R.styleable.LinkTextView_link);
         mLinkColor = typedArray.getResourceId(R.styleable.LinkTextView_linkColor,-1);
+        mShowUnderline = typedArray.getBoolean(R.styleable.LinkTextView_showUnderline,true);
         autoLink();
     }
 
@@ -62,7 +64,7 @@ public class LinkTextView extends AppCompatTextView {
                 @Override
                 public void updateDrawState(TextPaint ds) {
                     super.updateDrawState(ds);
-                    ds.setUnderlineText(true);
+                    ds.setUnderlineText(mShowUnderline);
                     ds.setColor(getResources().getColor(mLinkColor));
                 }
             };

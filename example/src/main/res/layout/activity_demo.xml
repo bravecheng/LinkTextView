@@ -5,6 +5,7 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:gravity="center"
+    android:orientation="vertical"
     tools:context="mobi.chy.linkexample.DemoActivity">
 
     <mobi.chy.widget.LinkTextView
@@ -16,5 +17,15 @@
         android:textSize="16sp"
         app:link="genius"
         app:linkColor="@color/colorAccent"/>
+
+    <mobi.chy.widget.LinkTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Towering genius disdains a beaten path. It seeks regions hitherto unexplored."
+        android:textSize="16sp"
+        app:link="genius"
+        app:linkColor="@color/colorAccent"
+        app:showUnderline="false"/>
 
 </LinearLayout>
