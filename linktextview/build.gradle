@@ -1,12 +1,12 @@
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 26
+    compileSdkVersion 28
     defaultConfig {
         minSdkVersion 14
-        targetSdkVersion 26
-        versionCode 2
-        versionName "0.1.1"
+        targetSdkVersion 28
+        versionCode 100
+        versionName "1.0.0"
     }
 
     buildTypes {
@@ -18,7 +18,7 @@ android {
 }
 
 dependencies {
-    provided 'com.android.support:appcompat-v7:26.1.0'
+    compileOnly 'com.android.support:appcompat-v7:28.0.0'
 }
 
 apply plugin: 'com.novoda.bintray-release'
@@ -27,7 +27,7 @@ publish {
     artifactId = 'LinkTextView'
     userOrg = 'bravecheng'
     groupId = 'mobi.chy'
-    publishVersion = '0.1.2'
+    publishVersion = '1.0.0'
     desc = 'a useful android link textview widget.'
     website = 'https://github.com/bravecheng/LinkTextView'
 }
